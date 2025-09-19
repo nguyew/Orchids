@@ -1,11 +1,10 @@
 import { Card, Rate, Tag, Badge, Typography, Space, Avatar } from 'antd';
 import { HeartOutlined, EnvironmentOutlined, StarFilled } from '@ant-design/icons';
-import { Heart, MapPin, Eye, Star } from "lucide-react";
 
 const { Title, Text } = Typography;
 const { Meta } = Card;
 
-const OrchidCard = ({ orchid, onViewDetails, isDarkMode }) => {
+const OrchidCard = ({ orchid }) => {
   const getColorTag = (color) => {
     const colorMap = {
       pink: 'magenta',
@@ -141,50 +140,5 @@ const OrchidCard = ({ orchid, onViewDetails, isDarkMode }) => {
       </Card>
     </Badge.Ribbon>
   );
-
-  const renderStars = (rating) => 
-    Array.from({ length: 5 }, (_, i) => (
-      <Star
-        key={i}
-        className={`w-4 h-4 ${i < rating ? "text-yellow-400 fill-current" : "text-gray-300"}`}
-      />
-    ));
-
-    return (
-      <div
-        className={`rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 ${
-        isDarkMode ? "bg-gray-800 text-white" : "bg-white text-gray-900"
-        }`}
-      >
-    {/* Image */}
-    <div className="relative">
-      <img src={orchid.image} alt={orchid.name} className="w-full h-48 object-cover" />
-      {orchid.isNatural && (
-        <div className="absolute top-2 right-2 bg-yellow-500 text-white px-2 py-1 rounded-full text-xs font-bold">
-          ⭐ SPECIAL
-        </div>
-      )}
-      {orchid.isNatural && (
-        <div className="absolute top-2 left-2 bg-green-500 text-white px-2 py-1 rounded-full text-xs font-bold">
-            🌿 NATURAL
-        </div>
-      )}
-        </div>
-    {/* Content */}
-    <div className="p-4 space-y-3">
-      <div className="text-center">
-        <h3 className="text-lg font-bold mb-1">{orchid.name}</h3>
-        <div className="flex justify-center items-center gap-1 mb-2">
-          {renderStars(orchid.rating)}
-          
-
-
-
-
-
-
-
-    </div>
-}
 };
 export default OrchidCard;
