@@ -4,12 +4,13 @@ const ListOfOrchids = [
         name: 'Taichung Beauty',
         rating: 5,
         isSpecial: true,
-        isNature: false,
+        isNatural: false,
         image: 'https://plantae.co.za/wp-content/uploads/2022/01/Rhyncholaeliocattleya-Taichung-Beauty-Qing-Ming-8.png',
         color: 'pink',
         numberOfLike: 192,
         origin: 'Taiwan',
         category: 'Cattleya',
+        description: 'A stunning hybrid orchid known for its vibrant pink blooms and exceptional fragrance.'
     },
 
     {
@@ -17,12 +18,13 @@ const ListOfOrchids = [
         name: 'Royal Purple',
         rating: 4,
         isSpecial: true,
-        isNature: true,
+        isNatural: true,
         image: 'https://th.bing.com/th/id/R.6d134c656e5f91d126cfc1a45d81f03a?rik=JhM60srKHBqi%2bg&pid=ImgRaw&r=0',
         color: 'purple',
         numberOfLike: 150,
         origin: 'Thailand',
         category: 'Dendrobium',
+        description: 'A naturally occurring species with deep purple petals and elegant form.'
     },
 
     {
@@ -30,12 +32,13 @@ const ListOfOrchids = [
         name: 'Golden SunSet',
         rating: 5,
         isSpecial: false,
-        isNature: true,
+        isNatural: true,
         image: 'https://ih0.redbubble.net/image.4149764.6976/flat,1000x1000,075,f.u3.jpg',
         color: 'yellow',
         numberOfLike: 210,
         origin: 'Brazil',
         category: 'Oncidium',
+        description: 'A radiant yellow orchid that captures the essence of a perfect sunset.'
     },
 
     {
@@ -48,7 +51,8 @@ const ListOfOrchids = [
         color: 'white',
         numberOfLike: 234,
         origin: 'Japan',
-        category: 'Phalaenopsis'
+        category: 'Phalaenopsis',
+        description: 'Pure white petals with a delicate texture, symbolizing elegance and purity.'
     },
 
     {
@@ -61,7 +65,8 @@ const ListOfOrchids = [
         color: 'red',
         numberOfLike: 178,
         origin: 'Ecuador',
-        category: 'Cattleya'
+        category: 'Cattleya',
+        description: 'A magnificent red orchid with velvety petals and intense coloration.'
     },
 
     {
@@ -74,7 +79,8 @@ const ListOfOrchids = [
         color: 'blue',
         numberOfLike: 67,
         origin: 'Colombia',
-        category: 'Vanda'
+        category: 'Vanda',
+        description: 'Rare blue orchid with ethereal beauty and mystical appeal.'
     },
 
     {
@@ -87,7 +93,8 @@ const ListOfOrchids = [
         color: 'green',
         numberOfLike: 145,
         origin: 'Malaysia',
-        category: 'Paphiopedilum'
+        category: 'Paphiopedilum',
+        description: 'An exotic green orchid with unique slipper-shaped blooms.'
     },
 
     {
@@ -100,7 +107,8 @@ const ListOfOrchids = [
         color: 'orange',
         numberOfLike: 112,
         origin: 'Philippines',
-        category: 'Dendrobium'
+        category: 'Dendrobium',
+        description: 'Vibrant orange blooms that evoke the warmth of a tropical sunset.'
     },
 
     {
@@ -113,7 +121,8 @@ const ListOfOrchids = [
         color: 'lavender',
         numberOfLike: 203,
         origin: 'Singapore',
-        category: 'Phalaenopsis'
+        category: 'Phalaenopsis',
+        description: 'Soft lavender petals with a misty, dreamlike appearance.'
     },
     {
         id: '10',
@@ -125,7 +134,8 @@ const ListOfOrchids = [
         color: 'black',
         numberOfLike: 287,
         origin: 'Peru',
-        category: 'Miltonia'
+        category: 'Miltonia',
+        description: 'An incredibly rare black orchid with mysterious and captivating beauty.'
     },
     {
         id: '11',
@@ -137,7 +147,8 @@ const ListOfOrchids = [
         color: 'pink',
         numberOfLike: 156,
         origin: 'Vietnam',
-        category: 'Cattleya'
+        category: 'Cattleya',
+        description: 'Delicate pink orchid with soft, blushing petals reminiscent of roses.'
     },
     {
         id: '12',
@@ -149,7 +160,8 @@ const ListOfOrchids = [
         color: 'copper',
         numberOfLike: 98,
         origin: 'Costa Rica',
-        category: 'Oncidium'
+        category: 'Oncidium',
+        description: 'Metallic copper-colored petals that shimmer like flames in the light.'
     },
     {
         id: '13',
@@ -161,7 +173,8 @@ const ListOfOrchids = [
         color: 'cream',
         numberOfLike: 189,
         origin: 'Australia',
-        category: 'Cymbidium'
+        category: 'Cymbidium',
+        description: 'Creamy pearl-like petals with lustrous finish and refined elegance.'
     },
     {
         id: '14',
@@ -173,7 +186,8 @@ const ListOfOrchids = [
         color: 'red',
         numberOfLike: 165,
         origin: 'Myanmar',
-        category: 'Vanda'
+        category: 'Vanda',
+        description: 'Deep ruby red orchid with jewel-like intensity and rich coloration.'
     },
     {
         id: '15',
@@ -185,7 +199,8 @@ const ListOfOrchids = [
         color: 'violet',
         numberOfLike: 221,
         origin: 'India',
-        category: 'Dendrobium'
+        category: 'Dendrobium',
+        description: 'Dramatic violet orchid with storm-like patterns and powerful presence.'
     },
     {
         id: '16',
@@ -197,7 +212,9 @@ const ListOfOrchids = [
         color: 'gold',
         numberOfLike: 134,
         origin: 'New Zealand',
-        category: 'Phalaenopsis'
+        category: 'Phalaenopsis',
+        description: 'Luxurious golden orchid with champagne-like effervescence and sparkle.'
     }
 ];
+
 export { ListOfOrchids };
