@@ -1,5 +1,5 @@
 import './App.css'
-import Orchids from './Orchids'
+import Orchids from './Orchids/Orchids';
 import React from 'react';
 function App() {
   return (
