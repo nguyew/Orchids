@@ -61,3 +61,4 @@ const OrchidModal = ( orchid, visible, onClose ) => {
     );
 };
 
+export default OrchidModal;
