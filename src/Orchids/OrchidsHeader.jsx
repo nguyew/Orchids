@@ -1,15 +1,30 @@
-const OrchidsHeader = ({ isDarkMode }) => (
-  <div className="text-center mb-12">
-    <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-      🌺 Exotic Orchids Collection
-    </h1>
-    <p
-      className={`text-xl mb-8 max-w-2xl mx-auto ${
-        isDarkMode ? "text-gray-300" : "text-gray-600"
-      }`}
+import { Typography } from "antd";
+const { Title, Paragraph } = Typography;
+
+const OrchidsHeader = () => (
+  <div style={{ textAlign: "center", marginBottom: 48 }}>
+    <Title
+      level={1}
+      style={{
+        color: "white",
+        fontSize: "3rem",
+        textShadow: "2px 2px 4px rgba(0,0,0,0.3)",
+        marginBottom: 16,
+      }}
     >
-      Discover our stunning collection of rare and beautiful orchids from around the world.
-    </p>
+      🌺 Exotic Orchids Collection
+    </Title>
+    <Paragraph
+      style={{
+        color: "rgba(255,255,255,0.9)",
+        fontSize: "1.2rem",
+        maxWidth: 600,
+        margin: "0 auto",
+      }}
+    >
+      Discover our stunning collection of rare and beautiful orchids from around
+      the world. Each flower tells a unique story of elegance and natural wonder.
+    </Paragraph>
   </div>
 );
 
