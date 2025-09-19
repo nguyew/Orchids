@@ -51,6 +51,13 @@ const OrchidModal = ( orchid, visible, onClose ) => {
                         <Descriptions.Item label="Color">{orchid.color}</Descriptions.Item>
                         <Descriptions.Item label="Likes">{orchid.numberOfLike}</Descriptions.Item>
                     </Descriptions>
+
+                    {/* Extra Info */}
+                    {orchid.description && (
+                        <Paragraph style={{ marginTop: 12 }}>{orchid.description}</Paragraph>
+                    )}
+                </Space>
             </Modal>
-  
-}
+    );
+};
+
