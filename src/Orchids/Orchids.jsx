@@ -1,6 +1,6 @@
 import { Card, Row, Col, Typography, Space, Divider } from 'antd';
 import OrchidCard from './OrchidCards';
-import { ListOfOrchids } from './data/orchidsData';
+import { ListOfOrchids } from '../data/orchidsData';
 
 const { Title, Text, Paragraph } = Typography;
 
